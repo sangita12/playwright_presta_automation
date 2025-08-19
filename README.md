@@ -131,19 +131,6 @@ npm run test:report
 npx playwright test --reporter=list
 ```
 
-## 🔧 Configuration
-
-### Environment Variables
-
-Create a `.env` file for environment-specific configurations:
-
-```env
-BASE_URL=https://demo.prestashop.com/#/en/front
-HEADLESS=true
-TIMEOUT=30000
-```
-
-
 ## 📝 Test Data Management
 
 ```typescript
